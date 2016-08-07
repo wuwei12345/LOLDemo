@@ -1,0 +1,15 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent"
+    tools:context="demo.lol.com.loldemo.Fragment.OneFragment">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:id="@+id/one_gridview"
+        android:numColumns="2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
